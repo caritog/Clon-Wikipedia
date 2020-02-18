@@ -1,0 +1,375 @@
+/*.centrar-tittle {
+    text-align: center;
+}
+img {
+    position: static;
+    display:block;
+    margin:auto;
+} */
+
+header .nav-center-tittles {
+    margin: 40px 240.5px 5px;
+    text-align: center;
+}
+
+.nav-center-tittles img {
+    width: 176px;
+    height: 32px;
+}
+
+    
+    /*
+    background-position: 0 -254px;
+    background-position: center;
+    width: 176px;
+    height: 32px;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;   */
+
+
+.nav-center-tittles h2 {
+    background-position: 0 -254px;
+    width: 176px;
+    height: 33px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    line-height: 0;
+}
+
+main {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.main-logo {
+    width: 546px;
+    height: 325px;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.main-logo-wiki img {
+    border: 0;
+    margin:16px 40px;
+}
+/*codigo para idiomas y barra de busqueda
+
+jhdjskdhd
+
+codigo para idiomas y barra de busqueda*/
+
+/* .lang-list {
+    color: #36c;
+    cursor: pointer;
+}
+
+.lang-list:hover {
+    background-color: #ffffff;
+    border-color: #a2a9b1;
+}
+
+.lang-list i {
+    border: #36c;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+ .lang-list > down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }  
+
+  */
+
+.central-featured {
+   /* position:relative;
+    height:325px;
+    height:32.5rem;
+    width:546px;
+     width:54.6rem;
+    max-width:100%; */
+    margin-top: 1em;
+   /* margin:0 auto; */
+    text-align:center;
+    vertical-align:middle
+}  
+
+.central-featured-idiom {  /*central feature lang */
+    position:absolute;
+   /* width:156px;
+    width:15.6rem */
+    /*display: grid;
+    font-family: Arial, Helvetica, sans-serif; */
+}  
+
+.central-featured-idiom .link-box {
+    display:block;
+    padding:60px;
+    text-decoration:none;
+    white-space:normal
+
+}
+
+
+
+/*
+main .titulos {
+    color: #3366CC;
+}
+
+main .subtitulos {
+    color: #54595d;
+}
+
+main .left-section {
+    text-align: left;
+}
+
+main .rigth-section {
+    text-align: right;
+}
+*/
+
+.central-featured-idiom .link-box:hover strong {
+    text-decoration:underline
+   }
+
+.central-featured-idiom strong {
+    color: #3366cc;
+    display:block;
+    font-size: 14px;
+   /* font-size:16px;
+    font-size:1.6rem */
+   }
+
+.central-featured-idiom small {
+    color:#54595d;
+    display:inline-block;
+  /*  font-size:12px;
+    font-size:1.2rem; */
+   /* line-height:1.6 */
+   }
+
+   
+
+.central-featured-idiom  {
+    
+    font-family: sans-serif;
+   }
+
+
+
+/*.central-featured-idiom .emNonItalicLang {
+    font-style:normal
+   }
+ */
+
+   .idiom1 {  /* modificado*/
+    top:0;
+    right:55%
+   }
+   .idiom2 { /* modificado*/
+    top:0;
+    left:55%
+   }
+   .idiom3 { /* modificado*/
+    top:10%;
+    right:60%
+   }
+   .idiom4 { /* modificado*/
+    top:10%;
+    left:60%
+   }
+   .idiom5 {  /* modificado*/
+    top:20%;
+    right:60%
+   }
+   .idiom6 { /* modificado*/
+    top:20%;
+    left:60%
+   }
+   .idiom7 { /* moificado*/
+    top:30%;
+    right:60%
+   }
+   .idiom8 { /* modificado*/
+    top:30%;
+    left:60%
+   }
+   .idiom9 { /* modificado*/
+    top:40%;
+    right:55%
+   }
+   .idiom10 {  /* modificado*/
+    top:40%;
+    left:55%
+   }
+
+
+
+
+  /* @media all and (max-width:480px) {
+    .central-featured{
+     width:auto;
+     height:auto;
+     margin-top:70px;
+     margin-top:7rem;
+     font-size:12px;
+     font-size:1.2rem;
+     text-align:left
+    }
+    .central-featured:after {
+     content:' ';
+     display:block;
+     visibility:hidden;
+     clear:both;
+     height:0;
+     font-size:0
+    }
+    .central-featured-idiom {
+     display:block;
+     float:left;
+     position:relative;
+     top:auto;
+     left:auto;
+     right:auto;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing:border-box;
+     box-sizing:border-box;
+     height:64px;
+     height:6.4rem;
+     width:33%;
+     margin:0;
+     padding:0 16px;
+     padding:0 1.6rem;
+     font-size:14px;
+     font-size:1.4rem;
+     text-align:center
+    }
+    .central-featured-idiom strong {
+     font-size:14px;
+     font-size:1.4rem
+    }
+    .central-featured-idiom small {
+     font-size:11px;
+     font-size:1.1rem;
+     line-height:1.5
+    }
+   }
+   @media all and (max-width:375px) {
+    .central-featured-idiom {
+     font-size:12px;
+     font-size:1.2rem
+    }
+   }
+   @media all and (max-width:240px) {
+    .central-featured-idiom {
+     width:100%
+    }
+   }
+    */
+
+    main .main-input {
+        width: 530px;
+        margin: 0 auto;
+        margin-bottom: 35px;
+        padding-top: 50px;
+    }
+    
+    main .main-input-container {
+        width: 525px;
+        border: 1px solid #dfe1e5;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    
+    main .main-input input {
+        width: 450px;
+        height: 40px;
+        margin-left: 10px;
+        border: none;
+        outline: none;
+    }
+
+
+
+
+
+main .main-input-container:hover {
+        border-color: #000000;
+}
+
+
+   
+
+
+.main-input-container  {
+
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    border-radius: 1mm;
+    
+}
+
+main .lista-buscar {
+
+    padding: 0em;
+   
+}
+
+
+
+
+    
+ main .main-input .search-icon {
+    background-image: url('https://lh3.googleusercontent.com/proxy/eNHJRy91U5ffMY6g_VT9f_Ut-tR117dPusRjqcX4Hv88KEK4i_Kg9QIX3uNozuTvY7Oc0ox1SmJScH5ZSj60gzfgKSq4gC8Arw9uYc1ar_YdfT9CQ0e_cLfa_CVPeqlrzw');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #3366cc;
+    border-image: none;
+    width: 60px;
+    height: 45px; 
+    cursor: pointer; 
+    border-radius: 1mm;
+ }
+    /*lista desplegable 
+
+.boton-lista-desplegable .traslate-icon {
+    background-image: url('https://www.4me.com/wp-content/uploads/2019/07/4me-icon-translate.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    width: 18px;
+    height: 18px;   
+
+}
+
+*/
+
+.primera-parte-footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer .icon-center {
+    border: 0;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.footer .top-text-center {
+    text-align: center;
+}
+

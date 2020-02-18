@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clone de Wikipedia</title>
+    <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="nav-center-tittles">
+                    <img src="https://tentulogo.com/wp-content/uploads/1280px-Wikipedia_wordmark.svg_-1024x174.png"  alt="">
+                    <h2>La enciclopedia libre</h2>
+                </div>
+            </nav>
+        </header>
+
+        <!--Código principal-->
+
+        <main>
+            <section class="main-logo-wiki">
+                <div>
+                    <h1 text="wikilogo">
+                        <img  class="central-featured-logo" src="https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png" alt="">
+                    </h1>
+                </div>
+
+                <!--codigo para idiomas y barra de busqueda -->
+
+                <div class="central-featured"></div>
+                    <div class="central-featured-idiom idiom1" >
+                        <a id="es"  class="link-box" href="https://es.wikipedia.org"></a>
+                        <strong >Español</strong> 
+                        <small>
+                            <br>1 571 000+ artículos</br>
+                                
+                        </small>
+                    </div>
+
+                    <div class="central-featured-idiom idiom2" >
+                        <a id="en" class="link-box" href="https://en.wikipedia.org"></a>
+                        <strong>English</strong> 
+                        <small>
+                            <br>5 994 000+ articles</br>
+                                
+                        </small>
+                    </div>
+
+                    <div class="central-featured-idiom idiom3" >
+                        <a id="ja" class="link-box" href="https://ja.wikipedia.org"></a>
+                        <strong>日本語</strong>
+                        <small>
+                            <br>1 857 000+ 記事</br>
+                                
+                        </small>
+                    </div>
+
+                    <div class="central-featured-idiom idiom4">
+                        <a id="de" class="link-box" href="https://de.wikipedia.org"></a>
+                        <strong>Deutsch</strong>
+                        <small>
+                            <br>2 385 000+ Artikel</br>
+                               
+                        </small>
+                    </div>
+
+
+                    <div class="central-featured-idiom idiom5" >
+                        <a id="ru" class="link-box" href="https://ru.wikipedia.org"></a>
+                        <strong>Русский</strong>
+                        <small>
+                            <br>1 590 000+ статей</br>  
+                        </small>
+                    </div>
+
+                    <div class="central-featured-idiom idiom6">
+                        <a id="fr" class="link-box" href="https://fr.wikipedia.org"></a>
+                        <strong>Français</strong>
+                        <small>
+                            <br>2 171 000+ articles</br>   
+                        </small>
+                    </div>
+
+                    <div class="central-featured-idiom idiom7">
+                        <a id="it" class="link-box"  href="https://it.wikipedia.org"></a>
+                        <strong>Italiano</strong>
+                        <small>
+                            <br>1 576 000+ voci</br>
+                        </small>
+                    </div>
+
+                    <div class="central-featured-idiom idiom8">
+                        <a id="zh"  class="link-box" href="https://zh.wikipedia.org"></a>
+                        <strong>中文</strong>
+                        <small>
+                            <br>1 090 000+ 條目</br>
+                        </small>
+                    </div>
+
+                    <div class="central-featured-idiom idiom9">
+                        <a  id="pt"  class="link-box" href="https://pt.wikipedia.org"></a>
+                        <strong>Português</strong>
+                        <small>
+                            <br>1 018 000+ artigos</br>  
+                        </small>
+                    </div>
+
+                    <div class="central-featured-idiom idiom10">
+                        <a id="pl" class="link-box" href="https://pl.wikipedia.org"></a>
+                        <strong>Polski</strong>
+                        <small>
+                            <br>1 379 000+ haseł</br>
+                        <span></span>
+                        </small>
+                    </div>
+                </div>
+            </section>
+            <!--Código barra de búsqueda-->
+            <section class="main-input"> 
+                <div class="main-input-container" > 
+                    <input type="text" size="30"> 
+
+                    <div  class="lista-buscar"> 
+                        <label for="busqueda-lenguaje"></label> 
+                        <select name="lenguajes" id="busqueda-lenguaje" >
+                            
+                            <option value="ar" lang="ar">العربية</option>
+                            <option value="az" lang="az">Azərbaycanca</option>
+                            <option value="bg" lang="bg">Български</option>
+                            <option value="nan" lang="nan">Bân-lâm-gú / Hō-ló-oē</option>
+                            <option value="be" lang="be">Беларуская (Акадэмічная)</option>
+                            <option value="ca" lang="ca">Català</option>
+                            <option value="cs" lang="cs">Čeština</option>
+                            <option value="da" lang="da">Dansk</option>
+                            <option value="de" lang="de">Deutsch</option>
+                            <option value="et" lang="et">Eesti</option>
+                            <option value="el" lang="el">Ελληνικά</option>
+                            <option value="en" lang="en">English</option>
+                            <option value="es" lang="es">Español</option>
+                            <option value="eo" lang="eo">Esperanto</option>
+                            <option value="eu" lang="eu">Euskara</option>
+                            <option value="fa" lang="fa">فارسی</option>
+                            <option value="fr" lang="fr">Français</option>
+                            <option value="gl" lang="gl">Galego</option>
+                            <option value="hy" lang="hy">Հայերեն</option>
+                            <option value="hi" lang="hi">हिन्दी</option>
+                            <option value="hr" lang="hr">Hrvatski</option>
+                            <option value="id" lang="id">Bahasa Indonesia</option>
+                            <option value="it" lang="it">Italiano</option>
+                            <option value="he" lang="he">עברית</option>
+                            <option value="ka" lang="ka">ქართული</option>
+                            <option value="la" lang="la">Latina</option>
+                            <option value="lt" lang="lt">Lietuvių</option>
+                            <option value="hu" lang="hu">Magyar</option>
+                            <option value="mk" lang="mk">Македонски</option>
+                            <option value="ms" lang="ms">Bahasa Melayu</option>
+                            <option value="min" lang="min">Bahaso Minangkabau</option>
+                            <option value="nl" lang="nl">Nederlands</option>
+                            <option value="ja" lang="ja">日本語</option>
+                            <option value="no" lang="nb">Norsk (bokmål)</option>
+                            <option value="nn" lang="nn">Norsk (nynorsk)</option>
+                            <option value="ce" lang="ce">Нохчийн</option>
+                            <option value="uz" lang="uz">Oʻzbekcha / Ўзбекча</option>
+                            <option value="pl" lang="pl">Polski</option>
+                            <option value="pt" lang="pt">Português</option>
+                            <option value="kk" lang="kk">Қазақша / Qazaqşa / قازاقشا</option>
+                            <option value="ro" lang="ro">Română</option>
+                            <option value="ru" lang="ru">Русский</option>
+                            <option value="cy" lang="cy">Cymraeg</option>
+                            <option value="simple" lang="en">Simple English</option>
+                            <option value="ceb" lang="ceb">Sinugboanong Binisaya</option>
+                            <option value="sk" lang="sk">Slovenčina</option>
+                            <option value="sl" lang="sl">Slovenščina</option>
+                            <option value="sr" lang="sr">Српски / Srpski</option>
+                            <option value="sh" lang="sh">Srpskohrvatski / Српскохрватски</option>
+                            <option value="fi" lang="fi">Suomi</option>
+                            <option value="sv" lang="sv">Svenska</option>
+                            <option value="ta" lang="ta">தமிழ்</option>
+                            <option value="th" lang="th">ภาษาไทย</option>
+                            <option value="tg" lang="tg">Тоҷикӣ</option>
+                            <option value="azb" lang="azb">تۆرکجه</option>
+                            <option value="tr" lang="tr">Türkçe</option>
+                            <option value="uk" lang="uk">Українська</option>
+                            <option value="ur" lang="ur">اردو</option>
+                            <option value="vi" lang="vi">Tiếng Việt</option>
+                            <option value="vo" lang="vo">Volapük</option>
+                            <option value="war" lang="war">Winaray</option>
+                            <option value="zh" lang="zh">中文</option>
+                            <option value="ko" lang="ko">한국어</option>
+                        </select>
+                    </div>
+                
+                    <div>
+                    <span>
+                        <button class="search-icon">
+                            <!--Buscar-->
+                        </button>
+                    </span>
+                    </div>
+                </div>
+            </section>
+            <section class="boton-lista-desplegable">
+
+
+<!--
+
+                <div id="header">
+
+                    <ul class="nav">
+                        <li><a href="">Leer Wikipedia en tu idioma</a></li>
+                    </ul>
+
+                    <div>
+                        <ul>
+                            <li><a href="">txt</a></li>
+                            <li><a href="">txt</a></li>
+                            <li><a href="">txt</a></li>
+                            <li><a href="">txt</a></li>
+                        </ul>
+                    </div>
+
+
+                    <button > 
+                        <span class="traslate-icon"> 
+                            Leer Wikipedia en tu idioma
+                        </span>
+                        <a class="arrow-down"></a>
+                    </button> --> 
+                </div>
+                </section>
+        </main>
+
+        <footer>
+
+
+          <!-- 
+            <table>
+                <tr>
+                    <td> <a href="https://lh3.googleusercontent.com/hIbzmK5lje-2UebhEB3BPUihr5qYUy2TwNOi7_f82B1MzgpPiRzf6Zjc3FPpLqkNT03bfQ=s56" alt="">  </td>
+                    <td></td> 
+                    <td></td>       
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+            </table>
+-->  
+
+
+            <div class="primera-parte-footer"> 
+                <div class="icon-center">
+                    <img src="https://lh3.googleusercontent.com/hIbzmK5lje-2UebhEB3BPUihr5qYUy2TwNOi7_f82B1MzgpPiRzf6Zjc3FPpLqkNT03bfQ=s56" alt="">
+
+                </div>
+                <div class="top-text-center">
+                    <p>Wikipedia es alojada por la Fundación Wikimedia, una organización sin fines de lucro que también alberga una gama de otros proyectos.</p>
+                </div>
+            </div>
+
+            <div>
+                
+            </div>
+
+        </footer>
+
+
+
+    </body>
+</html>
